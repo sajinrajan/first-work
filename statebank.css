@@ -1,0 +1,728 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;padding: 0;
+    box-sizing: border;
+    outline: none;border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+    
+}
+
+
+html{
+    font-size:62.5% ;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width: .8rem;
+
+}
+html::-webkit-scrollbar-track{
+    background:transparent;
+}
+
+html::-webkit-scrollbar-track{
+    background: #fff;
+    border-radius: .5rem;
+}
+
+body{
+    background: #fff;
+}
+img:hover{
+    cursor: pointer;
+
+}
+section{
+    padding: 2rem 7%;
+}
+/* .curcil-whit
+{
+    background-color: #000;
+    position:relative;
+    width: 200px;
+    height: 200px;
+   
+} */
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    cursor: pointer;
+    background: none;
+    border: 2px solid #c39a8b;
+}
+.btn:hover{
+    background: #c39a8b;
+}
+.black-box{
+    background: black;
+    height: 7vh;
+    position: fixed;
+    top: 0;right: 0;left: 0;
+    z-index: 1000;
+}
+.three-bar {
+    width: 3%;
+    height: 39px;
+   
+}
+.header{
+   background: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 1.3rem 7%;
+   border-bottom:1px solid rgb(89, 73, 73) ;
+   position: fixed;
+   top: 4rem;right: 0;left: 0;
+   z-index: 1000;
+}
+
+
+
+.header .navbar a{
+    margin:0 1rem;
+    font-size: 1.6rem;
+    color: rgb(30, 26, 26);
+    text-transform: uppercase;
+}
+.header .navbar a:hover{
+    color: #c39a8b;
+    padding: .7rem;
+    border-bottom:1px solid #c39a8b ;
+}
+
+.header .fas {
+    font-size:2rem ;
+   cursor: pointer;
+   display: none;
+}
+
+
+
+
+.header .logo img{
+    height: 8rem;
+}
+
+
+.home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: rgba(0,0,0,0.7) url(mainpic.jpg) no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: center;
+    justify-content: center;
+}
+
+.home .content{
+   text-align: center;
+   max-width: 60rem;
+   
+  
+
+}
+.home .content h3{
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 15rem;
+}
+.home .content p{
+    font-size: 1.6rem;
+    color: #d5c4be;
+    font-weight: lighter;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.home .btn{
+    margin: 0 .7rem;
+}
+
+
+
+
+.book{
+    width: 65%;
+    height: 29vh;
+    border: 1px solid #d5c4be;
+    text-align: center;
+    margin-left: 15rem;
+    margin-top: -3rem;
+    background: #fff;
+}
+.book h3{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.book form input {
+    border: 1px solid #000;
+    padding: 1rem 3rem;
+    
+
+}
+.bar-2{
+    width: 8%;
+    height:2%;
+    margin-left: 0rem;
+    margin-bottom: 4rem;
+}
+.book form .SelectEvent {
+    border: 1px solid #4e4747;
+    padding: 1rem 3rem;
+    margin: 0 1rem;
+}
+.book .btn{
+    margin: 0 1rem;
+    background: #c39a8b;
+}
+
+.book .btn:hover{
+    color: #c39a8b;
+    background: none;
+}
+
+
+
+.gallery .heading {
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    font-weight: bolder;
+    
+}
+
+.gallery .heading img{
+    margin: 0 1rem;
+}
+
+.gallery .slider-wrapper .image-list{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    gap: 18px;
+    overflow-x: scroll;
+}
+.gallery .slider-wrapper .image-list .image-item{
+   
+    transition: transform 0.5s;
+    width: 250px;
+    height: 225px;
+    object-fit: cover;
+}
+.image-list::-webkit-scrollbar{
+    display:none;
+}
+.image-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% auto;
+}
+.image-wrap div{
+    font-size: 3rem;
+}
+#backBtn, #nextBtn{
+    width: 50px;
+    cursor: pointer;
+    margin: 40px;
+}
+
+.gallery .slider-wrapper .image-list .image-item:hover{
+    
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+.offer{
+    width: 100%;
+    height: 69vh;
+    text-align: center;
+    background: #fff;
+}
+ 
+.heading-1{
+text-align: center;
+font-size: 4rem;
+text-transform: uppercase;
+margin-bottom: 4rem;
+margin-left: -15rem;
+margin-top: 4rem;
+font-weight: bolder;
+}
+.bar-1{
+    width: 5%;
+    height:2%;
+    margin-left: -17rem;
+}
+.center-image{
+    width: 21%;
+    height: 45vh;
+    margin-top: 19rem;
+    margin-left: -15rem;
+}
+.location{
+    width: 8%;
+    height: 6%;
+    margin-left:39rem;
+    margin-top:-90rem;
+    margin-bottom: 9rem;
+}
+.celebreat{
+    width: 8%;
+    height: 6%;
+    margin-left:38rem;
+     margin-top:-100rem;  
+        margin-bottom: 26rem;
+}
+.photovideo {
+    width: 8%;
+    height: 6%;
+     margin-left:11rem;
+     margin-top:-90rem;  
+        margin-bottom: 35rem;
+     
+}
+.pv{
+
+    font-size: 2rem;
+    position: absolute;
+    left: 0px;
+    /* bottom: 0px; */
+}
+.catring{
+    width: 8%;
+    height: 6%;
+    margin-right:38rem;
+   margin-top: -85rem;
+        margin-bottom: 36rem; 
+}
+
+.inbox{
+    width: 8%;
+    height: 6%;
+           margin-right:70rem;
+              margin-top:-88rem;  
+                margin-bottom: 26rem; 
+}
+
+.floral{
+    width: 8%;
+    height: 6%;
+    margin-right:70rem;
+    margin-top:-90rem;
+    margin-bottom: 10rem; 
+}
+.home1 {
+    min-height: 100vh;
+    margin-top: 25rem;
+    display: flex;
+    align-items: center;
+    background: rgba(0,0,0,0.7) url(mainpic.jpg)no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: center;
+    justify-content: center;
+}
+
+.home1 .content1{
+   text-align: center;
+   max-width: 60rem;
+   
+  
+
+}
+
+
+.home1 .content1 h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 15rem;
+
+}
+.home1 .content1 p{
+    font-size: 1.6rem;
+    color: #d5c4be;
+    font-weight: lighter;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.home1 .btn{
+    border: none;
+    padding: 16px 30px;
+    color: #fff;
+    border-radius: 6px;
+    transition: 0.2s;
+
+}
+.home1 .btn:hover{
+    margin: 0 .7rem;
+   
+    color: black;
+    box-shadow: 0 0 0 4px #fff,0 0 0 8px #4070f4;
+  
+}
+.HOWWEWORK{
+  
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+    margin-left: 9.5rem;
+    margin-top: 4rem;
+    font-weight: bolder;
+}
+.bar{
+    width: 5%;
+    height:2%;
+    margin-left: 76rem;
+    margin-bottom: 4rem;
+}
+.loction-bar{
+    width: 8%;
+    height: 6%;
+    margin-left:42rem;
+   margin-bottom: -13rem;    
+}
+.FINDTHEPERFECT{
+   margin-left:41rem;
+   margin-top: 14rem;
+   color: #000;
+}   
+
+.vendor{
+    width: 8%;
+    height: 6%;
+    margin-left:62rem;
+   margin-top: -52rem; 
+   margin-bottom: 5.5rem;  
+}
+
+.THEBESTVENDOR{
+    margin-left:61rem;
+    margin-top: -4.5rem;
+    color: #000;
+}
+.party{
+    width: 8%;
+    height: 6%;
+    margin-left:82rem;
+    margin-top: -52rem; 
+    margin-bottom: 5.5rem;
+ 
+}
+.LETUSHELPYOU{
+    margin-left:82rem;
+    margin-top: -4.5rem;
+    color: #000;
+}
+.confetti{
+    width: 8%;
+    height: 6%;
+    margin-left:102rem;
+    margin-top: -52rem; 
+    margin-bottom: 5.5rem;
+}
+.ENJOYYOUR{
+    margin-left:102rem;
+    margin-top: -4.5rem;
+    color: #000;
+}
+
+
+
+.slider {
+    width: 100%;
+   
+    position: absolute;
+    right: 0;
+}
+
+.slide {
+    display: none;
+}
+
+.slide img {
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 500px;
+    background: rgba(0,0,0,0.7);
+    
+    
+}
+
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 3rem;
+}
+
+button.prev {
+    left: 5.5rem;
+    border: 1px solid rgb(7, 7, 7);
+    border-radius: 50%;
+    width: 3.5%;
+    height: 12%;
+    opacity: .5 ;
+    background: rgb(0, 0, 0);
+    
+  
+
+}
+
+button.next {
+    right: 5.5rem;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    width: 3.5%;
+    height: 12%;
+    opacity: .5;
+   background: black;
+}
+
+.review .content{
+    display: flex;
+    align-items: center;
+}
+.review .content .trans {
+     width:5rem; 
+    height:5rem;
+    border-radius: 100px;
+ 
+
+}
+.review .fa-quote-left{
+
+    position: absolute;
+    font-size:9rem ;
+    color: #e9e7e8;
+    margin-left: 20rem;
+    margin-top: 4REM;
+    
+}
+
+
+.hbc{
+
+    position: absolute;
+    margin-top: 250px;
+    left: 680px;
+    top: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.rachel{
+    position: absolute;
+    top: 50px;
+   left: 60rem;
+   font-size: 4rem;
+   color: #ffff; 
+
+}
+.rachel-1{
+    position: absolute;
+    top: 140px;
+   left: 40rem; 
+   justify-content: center;
+   text-align: center;
+   width: 80rem;
+   text-align: dark;
+ font-size: 1.6rem;
+ font-weight: 1rem;
+ color: #fff2f2; 
+
+}
+.po{
+    color: #ffff;
+}
+.star .fa-star{
+    color: gold;
+}
+
+.gallery-1{
+    width: 44%;
+    height: 45%;
+    background: #4070f4;
+}
+.gallery-2{
+    font-weight: 550px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* slide-container */
+.slide-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    margin-top: 750px;
+    display: flex;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+ .section {
+    color: #f2f2f2;
+    font-size: 12px;
+    width: 100%;
+    height: 690px;
+    border: 2px solid black;
+    padding: 8px 12px;
+    position: relative;
+    top: 0;
+   
+  }
+  .carimage {
+    width:32% ;
+    height: 54vh;
+    margin-top:9px;
+    margin-left:10px;
+    margin-bottom:256px;
+    display: flex;
+}
+  The dots/bullets/indicators
+ .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  Fading animation 
+   .mySlides{
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+
+  
+  
+  .carimage1{
+      width:32% ;
+      height: 39vh;
+      margin-top:-909px;
+      margin-left:672px;
+      margin-bottom: 369px;
+  }
+  
+  .carimage2 {
+      width:32% ;
+      height: 94.5vh;
+      margin-top:-671px;
+      margin-left:342px;
+  }
+  
+  .carimage3 {
+      width: 32%;
+      height: 54vh;
+      margin-top: -429px;
+      margin-left: 672px;
+  }
+  .carimage4 {
+      width:32% ;
+      height: 39vh;
+      margin-top:-303px;
+      margin-left:7px;
+       margin-bottom: 97px; 
+  } 
+  .slide-container{
+    width: 100%;
+    height: 990px;
+    background-color: #ffffff;
+    position: relative;
+    display: flex;
+  }
+  /* .section{
+    width: 100%;
+    height: 990px;
+    background-color: #000;
+    position: relative;
+    display: flex;
+
+  }
+  .carimage{
+    width: 100%;
+    height: 190px;
+     display: flex;
+     
+   
+  } */
