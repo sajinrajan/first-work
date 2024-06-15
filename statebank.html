@@ -4,518 +4,207 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>state bank</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="statebank.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
+    
+
 </head>
 <body>
     <div class="black-box"></div>
-    <div class="header">
-        <a href="" class="logo">
-            <img src="/image/stat bang logo.png" alt="">
-        </a>
-        <nav class="navbar">
-            <a href="#home">home</a>
-            <a href="#book">about us</a>
-            <a href="#SelectEvent">event</a>
-            <a href="#what we offer">pages</a>
-            <a href="#HOW WE WORK">blog</a>
-            <a href="#gallery-1">gallery</a>
+        <div class="header  ">
+            <a href="" class="logo">
+                <img src="/image/stat bang logo.png" alt="">
+            </a>
+            <nav class="navbar">
+                <a href="#home">home</a>
+                <a href="#book">about us</a>
+                <a href="#SelectEvent">event</a>
+                <a href="#what we offer">pages</a>
+                <a href="#HOW WE WORK">blog</a>
+                <a href="#gallery-1">gallery</a>
+                <a href="#GET IN TOUCH">contact us</a>
+            </nav>
+            <div class="three-bar">
+            <i id="" class="material-icons">&#xe5d4; </i>
+            </div>
+        </div>
+    <div class="hidden-parent-div">
+        <div id="hidden-bar" class="hidden-bar">
+            <a id="close-btn"  class="fa fa-window-close" aria-hidden="true"></a>
+            <a href="a">Home</a>
+            <a href="home">about us</a>
+            <a href="home">event</a>
+            <a href="home">pages</a>
+            <a href="home">gallery</a>
             <a href="#GET IN TOUCH">contact us</a>
-        </nav>
-        <div class="three-bar">
-          <i id="" class="material-icons">&#xe5d4; </i>
         </div>
     </div>
 
 
     <!-- home section starts-->
     <section class="home" id="home">
-      
-<div class="main-pic">
-  <div class="first-image-head">
-    <iframe class="first-image-head" src="https://www.youtube.com /embed/ry2agCf53Uk" ></iframe>  </div>
-</div>
-        <div class="content">
-            <h3 class="helping-you-text">helping you celebrate</h3>
-            <p class="helping-you-text-P">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam dolores nemo dolorem reprehenderit maxime velit fugiat, molestias voluptatem tempore beatae. Aliquam quibusdam </p>
-          
-          <div class="fst-btn-start">
-            <a href="#" class="btn" id="btn">know more</a> 
-            <a href="" class="btn">get started</a>
-          </div>
-        </div> 
+        <div   div class="main-pic">
+            <div class="first-video-head">
+                <video src="./video/wedding.mp4 "   autoplay muted loop ></video>
+            </div>
+         </div>
+            <div class="content-div">
+                <div class="content">
+                    <h3 class="helping-you-text">helping you celebrate</h3>
+                    <p class="helping-you-text-P">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Quisquam dolores nemo dolorem reprehenderit maxime velit fugiat, molestias voluptatem 
+                        tempore beatae. Aliquam quibusdam </p>
+                        <div class="fst-btn-start">
+                            <a href="#" class="btn" id="btn">know more</a> 
+                            <a href="" class="btn">get started</a>
+                        </div>
+                </div>  
+            </div>
     </section>
      <!-- home section ends-->
 
      <!--book your event start-->
 
-     <section class="book" id="book">
 
+<section>
+    <div class="book" id="book">
         <div>
             <h3>book your event</h3>
-        </div>
-        <div ><img src="/image/BAR.png" alt="" class="bar-2"></div>
-
-
-        <form action="#">
-            <input type="text" placeholder="YOUR NAME" class="YOURNAME">
-            
-            <select class="SelectEvent" id="SelectEvent">
-                                   
-                <option>Select Event</option>
-                <option></option>
-                <option></option>
-                <option></option>
-                <option></option>
-                <option></option>
-                <option></option>
-                
-                
-            </select>
-
-            <input   type="date" placeholder="Select Date" class="SelectDate">
-
-            <a href="#" class="btn">book now</a>
-        </form>
-     </section>
+       </div>
+           <div class="bottom-bar"><img src="/image/BAR.png"></div>
+       <form action="#" class="book-form">
+        <input type="text" placeholder="YOUR NAME" class="YOURNAME">           
+            <select class="SelectEvent" id="SelectEvent">                                  
+               <option>SelectEvent</option>
+               <option>Shopping</option>
+               <option>Birthday</option>
+               <option>Wedding</option>
+               <option></option>
+               <option></option>
+               <option></option>
+           </select>
+               <input   type="date" placeholder="Select Date" class="SelectDate">
+               <button   type="submit">book now</button>
+       </form>
+   </div>
+</section>
         <!--book your event end-->
+
 
         <!--gallery section starts-->
 
-        <section class="gallery" id="gallery">
-
-            <div class="heading"><img src="/image/logo1.png" alt="#">our events</div>
-
-            <div class="container">
-                <div class="slider-wrapper">
-                  
-                  <div class="image-wrap">
+<section class="gallery" id="gallery">
+    <div class="heading"><img src="/image/logo1.png" alt="#">our events</div>
+        <div class="container">
+            <div class="slider-wrapper">               
+                <div class="image-wrap">
                     <div class="fa-solid fa-arrow-left" id="backBtn"></div>
-
-                    <div class="image-list">
-                      <img src="/image/1752505.jpg" alt="" class="image-item">
-                      <img src="/image/baby.png" alt="" class="image-item">
-                      <img src="/image/wedding.png" alt="" class="image-item">
-                      <img src="/image/mixer.png" alt="" class="image-item">
-                      <img src="/image/event.png" alt="" class="image-item">
-                      <img src="/image/light.png" alt="" class="image-item">
-                      
-                  </div>
-
-                  <div class="fa-solid fa-arrow-right" id="nextBtn"></div>
-                  </div>
-                  
+                        <div class="image-list">
+                            <img src="/image/1752505.jpg" alt="" class="image-item">
+                             <img src="/image/baby.png" alt="" class="image-item">
+                            <img src="/image/wedding.png" alt="" class="image-item">
+                            <img src="/image/mixer.png" alt="" class="image-item">
+                            <img src="/image/event.png" alt="" class="image-item">
+                            <img src="/image/light.png" alt="" class="image-item">
+                        </div>
+                            <div class="fa-solid fa-arrow-right" id="nextBtn"></div>
                 </div>
             </div>
-        </section>
+         </div>
+</section>
         <!--gallery section ends-->
 
-
-  <!-- what we offer start -->
+<!-- what we offer start -->
         
-        <section class="offer" id="offer">
-            <div class="">
-                <div class="heading-1" id="what we offer"> what we offer </div> 
-                <div ><img src="/image/BAR.png" alt="" class="bar-1"></div>
-
-                <img src="/image/what we offer.png" alt="" id="offer" onclick="changeImage()" class="center-image">
-
-            </div>
-
-                <div class="">
-                    <div>
-                  <img src="/image/photo&video.png" alt="#"  class="photovideo">
-                  <div class="pv"> Photo&video</div>
-                
-                    
-                </div>
-                <div>
-                   <img src="/image/catring.png" alt="" class="catring">
-                        </div>
-                        <div>
-                    <img src="/image/inbox.png" alt="" class="inbox">
-                    </div>
-                    <div>
-                  <img src="/image/celebreat.png" alt="" class="celebreat">
-                    </div>
-                    <div>
-                    <img src="/image/celebreat.png" alt="" class="location">
-                    </div>
-                    <div>
-                      <img src="/image/floral.png" alt="" class="floral">  
-                </div>
-                    
-                </div>
-           
-        </section>
-
- <!-- what we offer ends -->
-    
-
- <!-- home section starts-->
- <section class="home1" id="home">
-  <div class="home1-image">
-    <div class="sce-image-box">
-    <img src="/image/1752505.jpg" alt="im" class="sub-img-box">
-  </div>
-  </div>
-
-
-    <div class="content1">
-        <h1>PLANNING AND ORGANIZING UNFORGETTABLE EVENTS</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing eli tsed do elusod tempor 
-            incididunt ut labore et dolore magana labore et dolore magna. 
-             </p>
-        <a href="#" class="btn" id="btn">BOOK NOW</a> 
-      
+<section class="offer" id="offer-1">
+    <div class="">
+        <div class="heading-1" id="what we offer"> what we offer </div> 
+        <div ><img src="/image/BAR.png" alt="" class="bar-1"></div>
+        <img src="/image/what we offer.png" alt=""  onclick="changeImage()" class="center-image">
     </div>
+
+        <div class="">
+          
+                <div class="six-box-image">
+                    <div>
+                        <img src="/image/photo&video.png" alt="#" id="offer-2"  class="photo-video">
+                           <div class="pv"> Photo&video</div>
+                       </div>
+                    <div>
+                        <img src="/image/catring.png" alt="" id="offer" class="catering">
+                    </div>
+                        <div>
+                            <img src="/image/inbox.png" alt="" id="offer" class="inbox">
+                        </div>
+                    <div>
+                        <img src="/image/celebreat.png" alt="" id="offer" class="celebrate">
+                    </div>
+                        <div>
+                            <img src="/image/celebreat.png" alt="" id="offer" class="location">
+                        </div>
+                    <div>
+                         <img src="/image/floral.png" alt="" id="offer" class="floral">  
+                    </div>
+                </div>   
+        </div>
+   
 </section>
- <!-- home section ends-->
 
- <!-- HOW WE WORK start -->
-
- <div class="HOWWEWORK" id="HOW WE WORK"> HOW WE WORK </div> 
- <div ><img src="/image/BAR.png" alt="" class="bar"></div>
-
-
- <div >
-    <img src="/image/loction-bar.png" alt="" class="loction-bar">
-    <a href="#"><h2 class="FINDTHEPERFECT">FIND THE PERFECT<br>VENUE</h2></a>
- </div>
-
- <div >
-    <img src="/image/vendor.png" alt="" class="vendor">
-    <a href="#"><h2 
-     class="THEBESTVENDOR">CONNECT WITH<br>THE BEST VENDOR</h2></a>
- </div>
-
- <div >
-    <img src="/image/party.png" alt="" class="party">
-    <a href="#"><h2 
-     class="LETUSHELPYOU">LET US HELP YOU<br>WHIT THE EVENT</h2></a>
- </div>
-
- <div >
-    <img src="/image/confetti.png" alt="" class="confetti">
-    <a href="#"><h2 
-     class="ENJOYYOUR"> ENJOY YOUR<br>PERFECT EVENT</h2></a>
- </div>
- <!-- HOW WE WORK  ends -->
-
-
-
-
-
- <!--review section start-->
-
-
-
-
-
-
-
-
-
-
-
-
-   <section class="review" id="review">
-
-
-    <div class="slider">
-      <div class="slide">
-
-                                        <div class="content">
-                                          
-                                          <div class="icons">
-                                            <div class="fa-solid fa-quote-left"> </div> 
-                                          </div>
-                                     
-                                          <h1  class="rachel">what our clients say</h1>
-                                        
-                                                           <p  class="rachel-1">Lorem ipsum dolor sit, amet consectetur    adipisicing elit. Aliquam aliquid quasi sapiente possimus tempora culpa neque ducimus, mollitia perspiciatis facilis fuga, earum cupiditate minima iste?</p>
-                                        
-                                          <div class="hbc">
-                                          <img src="/image/profile.jpg" alt="" class="trans" >
-                                        
-                                          <a href=""> <h3  class="po">rachel ballinger</h3>
-                                          <p class="po">ceo , bisbrok</p></a>
-
-
-                                          <div class="star">
-                                            <a href=""><div class="fa-solid fa-star"></div></a>
-                                            <a href=""></a><div class="fa-solid fa-star"></div></a>
-                                            <a href=""> <div class="fa-solid fa-star"></div></a>
-                                            <a href=""> <div class="fa-solid fa-star"></div></a>
-                                            <a href=""></a><div class="fa-solid fa-star"></div></a>
-                                        
-                                          </div> 
-                                        </div>
-                                        </div>
-                                        
-  
-          <img src="/image/cars-3.jpg" alt="Image 1">
-
-
-          
-
-          </div>
-
-     
-      <div class="slide">
-
-
-
-
-
-        <div class="content">
-                                          
-          <div class="icons">
-            <div class="fa-solid fa-quote-left"> </div>
-          </div>
-     
-          <h1  class="rachel">what our clients say</h1>
-        
-                           <p  class="rachel-1">Lorem ipsum dolor sit, amet consectetur    adipisicing elit. Aliquam aliquid quasi sapiente possimus tempora culpa neque ducimus, mollitia perspiciatis facilis fuga, earum cupiditate minima iste?</p>
-        
-          <div class="hbc">
-          <img src="/image/profile.jpg" alt="" class="trans">
-        
-          <h3>rachel ballinger</h3>
-          <p class="po">ceo , bisbrok</p>
-          <div class="star">
-            <div class="fa-solid fa-star"></div>
-            <div class="fa-solid fa-star"></div>
-            
-            <div class="fa-solid fa-star"></div>
-            <div class="fa-solid fa-star"></div>
-            <div class="fa-solid fa-star"></div>
-        
-          </div> 
-        </div>
-        </div>
-
-
-
-        
-          <img src="/image/cars.jpg" alt="Image 2">
-      </div>
-      <div class="slide">
-
-        <div class="content">
-                                          
-          <div class="icons">
-            <div class="fa-solid fa-quote-left"> </div>
-          </div>
-     
-          <h1  class="rachel">what our clients say</h1>
-        
-                           <p  class="rachel-1">Lorem ipsum dolor sit, amet consectetur    adipisicing elit. Aliquam aliquid quasi sapiente possimus tempora culpa neque ducimus, mollitia perspiciatis facilis fuga, earum cupiditate minima iste?</p>
-        
-          <div class="hbc">
-          <img src="/image/profile.jpg" alt="" class="trans">
-        
-          <h3>rachel ballinger</h3>
-          <p class="po">ceo , bisbrok</p>
-          <div class="star">
-            <div class="fa-solid fa-star"></div>
-            <div class="fa-solid fa-star"></div>
-            <div class="fa-solid fa-star"></div>
-            <div class="fa-solid fa-star"></div>
-            <div class="fa-solid fa-star"></div>
-        
-          </div> 
-        </div>
-        </div>
-
-          <img src="/image/aZuKy2T.jpg" alt="Image 3">
-      </div>
-      <button class="prev">&#10094;</button>
-      <button class="next">&#10095;</button>
-  </div>
-
-
-
-    </section>
-
-
-
-
-
-
-
-
-
-          
-<!-- WHAT OUR CLIENTS SAY END -->
-
-<!-- 
+<!-- what we offer ends -->  
  
-
-  <div class="container">
-      <div class="slider-wrapper">
-        
-        <div class="image-wrap">
-          <div class="fa-solid fa-arrow-left" id="backBtn"></div>
-
-          <div class="image-list">
-            <img src="/image/1752505.jpg" alt="" class="image-item">
-            <img src="/image/baby.png" alt="" class="image-item">
-            <img src="/image/wedding.png" alt="" class="image-item">
-            <img src="/image/mixer.png" alt="" class="image-item">
-            <img src="/image/event.png" alt="" class="image-item">
-            <img src="/image/light.png" alt="" class="image-item">
-            
+ <!-- home section starts-->
+    <section class="home1" id="home">
+         <div class="home1-image">
+           <div class="sce-image-box">
+             <img src="/image/1752505.jpg" alt="im" class="sub-img-box">
+            </div>
         </div>
+            <div class="content1">
+                    <!-- <h1>PLANNING AND ORGANIZING UNFORGETTABLE EVENTS</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing eli tsed do elusod tempor 
+                         incididunt ut labore et dolore magana labore et dolore magna. 
+                        </p>
+                        <a href="#" class="btn" id="btn">BOOK NOW</a> -->
+            </div>
+  </section>
+<!-- home section ends-->
 
-        <div class="fa-solid fa-arrow-right" id="nextBtn"></div>
+<!-- HOW WE WORK start -->
+
+<section class="how-we-work" id="how-we-work">
+    <h4>HOW WE WORK </h4> 
+    <div class="bottom-bar" ><img src="/image/BAR.png" ></div>
+    <div class="four-typ-box">
+        <div class="single-icon" >
+            <img src="/image/loction-bar.png" alt="" >
+            <a href="#">FIND THE PERFECT<br>VENUE</a>
         </div>
-        
-      </div>
-  </div> -->
-
-
-<!-- OUR GALLERY START -->
-<section class="gallery-1" id="gallery-1">
-<div class="heading-start">OUR GALLERY START</div>
-<img src="/image/BAR.png" alt="" class="bar-gallary">
-                  <div class="slide-container-img">
-
-                   <div class="section">1 / 3
-                    <div  class="carimage">
-                    <img src="/image/galary-1.png" class="carim"> 
-                    </div>
-
-                    <div  class="carimage2">
-                    <img src="/image/galary-3.png" class="carim2" > 
-                    </div>
-                    <div  class="carimage3">
-                    <img src="/image/wedding.png" class="carim3" > 
-                    </div>
-                    <div  class="carimage4">
-                      <img src="/image/event.png" class="carim4" > 
-                      </div>
-                      <div class="carimage6">
-                    <img src="/image/galary-2.png"class="carim6"> 
-                      </div>
-
-                    <div class="text">Caption Text</div> 
-                  </div>
+        <div class="single-icon" >
+            <img src="/image/vendor.png" alt="">
+            <a href="#">CONNECT WITH<br>THE BEST VENDOR</a>
+        </div>
+        <div class="single-icon">
+            <img src="/image/party.png" alt="">
+            <a href="#">LET US HELP YOU<br>WHIT THE EVENT</a>
+        </div>
+        <div class="single-icon">
+            <img src="/image/confetti.png" alt="" >
+            <a href="#">ENJOY YOUR<br>PERFECT EVENT</a>
+        </div> 
+    </div> 
 </section>
-<!--
-<div class="numbertext">2 / 3</div>
-<img src="2157466.jpg" style="width:100%">
-<div class="text">Caption Two</div>
-</div>
-
-<div class="numbertext">3 / 3</div>
-<div class="mySlides">
-<img src="1752737.jpg" style="width:100%">
-<div class="text">Caption Three</div>
-</div>
-
-<a class="prev" onclick="plusSlides(-1)">❮</a>
-<a class="next" onclick="plusSlides(1)">❯</a>
-
-</div>
-<div class="mySlides ">
-<br>
-<div class="mySlides">
-
-<div style="text-align:center">
-<span class="dot" onclick="currentSlide(1)"></span> 
-<span class="dot" onclick="currentSlide(2)"></span> 
-<span class="dot" onclick="currentSlide(3)"></span> 
-</div>
-
- -->
-
-                   <!-- GET IN TOUCH -->
-<section >
-                 <div class="get-in-touch-box" id="GET IN TOUCH">
-                   <div class="text-in-touch">
-                   <h1 > GET IN TOUCH</h1>
-                   <img src="/image/BAR.png" alt="" class="bar-touch">
-                   </div>
-                   <div class="contact-text">
-                    <div class="input-text-last">
-                      <i class="fa-solid fa-user" ></i>
-                      <input type="text" placeholder="Your Name" class="contact-inp"><br>
-                      <i class="fa-solid fa-envelope"></i>                      <input type="text" placeholder="Email" class="contact-inp"><br>
-                      
-                      <i class="fa-solid fa-phone"></i>  <input type="number" placeholder="Phone Number" class="contact-inp"><br>
-
-                      <i class="fa-solid fa-location-dot"></i>                 <input type="text" placeholder="Adders" class="contact-inp"><br>
-
-                      <i class="fa-solid fa-comment"></i>                      <input type="text" placeholder="Message" class="contact-inp">
-
-                      <input type="submit" value="submit" class="sub-btn">
+<!-- HOW WE WORK  ends -->
 
 
 
-                    </div>
-                   </div>
-                   <div class="image-box-last">
-                    <div class="img-lst">
-                      <img src="/image/house.png" alt="" class="house-img">
-                    </div>
-
-                   </div>
-                   </div>
-                  </section>
-
-                   <div class="last-box">
-                    <div class="lst-ion-box">
-                      <i class="fa-solid fa-phone"></i>  
-                      <div class="labe-box">
-                      <label for="">Phone Number</label><br>
-                      <label for="">225 558 25 22</label>
-                    </div>
-              
-                   
-
-                   <div class="lst-ion-box-1">
-                    <i class="fa-regular fa-envelope"></i>
-                    <div class="labe-box">
-                    <label for="">Email</label><br>
-                    <label for="">In@gmail.com</label>
-                  </div>
-                  </div>  
-
-                  <div class="lst-ion-box-2">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <div class="labe-box">
-                    <label for="">Adders</label><br>
-                    <label for="">Pin:200752</label>
-                  </div>
-                  </div>
-                </div>
-              </div>
-                  
-
-
-
-
-
-
-
-
-
-
-
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/0c851fcb8c.js" crossorigin="anonymous"></script> 
 <script src="script.js"></script>
 

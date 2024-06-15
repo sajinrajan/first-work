@@ -43,9 +43,24 @@ showSlide(currentSlide);
 
 function changeImage(){
     let displayImage = document.getElementById("offer")
-    if(displayImage.src.match('./image/what we offer.png')){
-        displayImage.src = './image/inbox.png'
-    }else{
-        displayImage.src = './image/what we offer.png'
-    }
+    // if(displayImage.src.match('./image/what we offer.png')){
+    //     displayImage.src = './image/inbox.png'
+    // }else{
+    //     displayImage.src = './image/what we offer.png'
+    // }
+    console.log( displayImage);
 }
+
+
+///hidden bar
+
+// const menuClick = document.getElementById('menu')
+// const hiddenBar = document.getElementById('hidden-bar')
+// const closeButton = document.getElementById('close-btn')
+// console.log(menuClick)
+// menuClick.addEventListener("click", function() {
+//     hiddenBar.style.display = "grid";
+//   });
+//   closeButton.addEventListener("click", function() {
+//     hiddenBar.style.display = "none";
+//   });
