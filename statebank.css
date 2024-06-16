@@ -239,7 +239,7 @@ video{
     text-align: center;
     background: #fffefe;
     position: relative;
-    margin: -70px 20px 100px 20px;
+    margin: -27px 20px 100px 20px;
     padding: 15px 20px;
     box-shadow: 1px 10px 20px 6px #74752e1a;
 }
@@ -623,7 +623,7 @@ text-transform: uppercase;
     font-size: 4rem;
     text-transform: uppercase;
     margin-bottom: 6rem;
-    margin-top: 39rem;
+    margin-top: 6rem;
     font-weight: bolder;
 }
 
