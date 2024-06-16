@@ -1003,7 +1003,13 @@ border: 2px solid gray;    bottom: 24px;
     height: 7vh;
     position: relative;
     left: 209px;
-    top: -285px; 
+    top: -255px; 
+}
+.text-in{
+    position: relative;
+    left: 2px;
+    top: 26px;
+    font-size: 3rem;
 }
 
   @media only screen and (max-width : 720px) {
@@ -1014,8 +1020,7 @@ border: 2px solid gray;    bottom: 24px;
         left: 163px;
        
       }
-      .text-in-touch {
-        
-        font-size: 1.5rem;
-      }
+      .text-in{
+        top: -54px;
+    }
   } 
