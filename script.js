@@ -63,4 +63,4 @@ function changeImage(){
 //   });
 //   closeButton.addEventListener("click", function() {
 //     hiddenBar.style.display = "none";
-//   });
+//   })
