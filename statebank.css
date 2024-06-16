@@ -615,7 +615,7 @@ text-transform: uppercase;
 .four-typ-box{
     display: flex;
     justify-content: center;
-    margin: 40px 10px;
+    margin: 240px 10px;
 }
 
 .how-we-work{
@@ -645,9 +645,14 @@ text-transform: uppercase;
 @media only screen and (max-width : 900px) {
     .four-typ-box{
         display: block;
+        margin-top: 0;
     }
 }
-
+@media only screen and (max-width : 600px) {
+    .four-typ-box{
+       
+    }
+}
 
 
 
@@ -997,7 +1002,8 @@ border: 2px solid gray;    bottom: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 229px;
+    margin-left: 152px;
+    margin-top: -206px;
 }
 .text-in-touch {
     height: 7vh;
@@ -1012,9 +1018,11 @@ border: 2px solid gray;    bottom: 24px;
     font-size: 3rem;
 }
 
-  @media only screen and (max-width : 720px) {
+  @media only screen and (max-width : 883px) {
       .get-in-touch-box{
-        margin-left: 0px;
+        
+        margin-left: 54px;   
+        margin-top: -197px;
       }
       .text-in-touch {
         left: 163px;
@@ -1024,3 +1032,10 @@ border: 2px solid gray;    bottom: 24px;
         top: -54px;
     }
   } 
+  @media only screen and (max-width : 494px) {
+    .get-in-touch-box{
+        
+        margin-left: -6px;
+        margin-top: -211px;
+      }
+  }
