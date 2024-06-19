@@ -1,4 +1,21 @@
 
+// MOBIL RESPONSIVE
+const menuIcon = document.getElementById('menu-icon');
+const mobileDiv = document.getElementById('mobil-menu-bar');
+
+function openMenuBar(){
+mobileDiv.style.display = "flex"
+menuIcon.style.display = "none"   
+}
+
+function closeMenuBar(){   
+mobileDiv.style.display = "none"
+menuIcon.style.display = "flex"
+}
+
+// MOBIL RESPONSIVE END
+
+
 
 let currentSlide = 0;
 const slides = document.querySelectorAll('.slide');
@@ -52,15 +69,4 @@ function changeImage(){
 }
 
 
-///hidden bar
 
-// const menuClick = document.getElementById('menu')
-// const hiddenBar = document.getElementById('hidden-bar')
-// const closeButton = document.getElementById('close-btn')
-// console.log(menuClick)
-// menuClick.addEventListener("click", function() {
-//     hiddenBar.style.display = "grid";
-//   });
-//   closeButton.addEventListener("click", function() {
-//     hiddenBar.style.display = "none";
-//   })
