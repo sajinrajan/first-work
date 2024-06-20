@@ -406,7 +406,7 @@ text-transform: uppercase;
     width: 21%;
     height: 45vh;
     margin-top: 19rem;
-    margin-right: -10px;
+    margin-right: 25px;
     overflow: hidden;
 }
 
@@ -533,7 +533,7 @@ text-transform: uppercase;
 
     .center-image{
         position: absolute;
-        left: 155px;
+        left: 113px;
         top: -48px;
         width: 30%;
         height: 39%;
